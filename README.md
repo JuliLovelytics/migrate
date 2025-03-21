@@ -39,10 +39,12 @@ To use this migration tool, you'll need:
 
 **Generate Access Tokens for both the old and new databricks accounts**
 
-1. Click ![settings icon](https://docs.databricks.com/_images/user-settings-icon.png)User Settings Icon Settings in the lower left corner of your Databricks workspace
-2. Click on **Access Tokens** tab
-3. Click on **Generate New Token** button. ![generate token](https://docs.databricks.com/_images/generate-token.png)
-4. Copy the generated token and store in a secure location.
+1. Click on User Icon in the upper right corner of your Databricks workspace
+2. Go to Settings
+3. Under User Settings click "Developer" 
+4. Click on **Access Tokens** "Manage" button
+6. Click on **Generate New Token** button. ![generate token](https://docs.databricks.com/_images/generate-token.png)
+7. Copy the generated token and store in a secure location.
 
 Be sure to keep a file with the url for both the old and new databricks account
 Add the old and new token and the old and new Instance ID if applicable.  You'll need easy access to all of these things when running the migration tool.
